@@ -12,7 +12,7 @@ La API gestiona **Usuarios**, **Artículos** y **Carritos de compra**, simulando
 - **LoopBack**
 - **TypeScript**
 - **MongoDB**
-- **Loopback MongoDB **
+- **Loopback MongoDB**
 - **OpenAPI / Swagger**
 - **Visual Studio Code**
 
