@@ -1,0 +1,39 @@
+{
+  "name": "api-rest-loopback",
+  "version": "1.0.0",
+  "description": "TP - API REST con LoopBack 4 y MongoDB",
+  "main": "dist/index.js",
+  "scripts": {
+    "prestart": "npm run build",
+    "start": "node .",
+    "build": "lb-tsc",
+    "clean": "rimraf dist",
+    "lint": "eslint . --ext .ts",
+    "test": "mocha -r ts-node/register test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@loopback/boot": "^4.0.0",
+    "@loopback/context": "^4.0.0",
+    "@loopback/core": "^4.0.0",
+    "@loopback/repository": "^4.0.0",
+    "@loopback/rest": "^13.0.0",
+    "@loopback/rest-explorer": "^4.0.0",
+    "@loopback/service-proxy": "^4.0.0",
+    "loopback-connector-mongodb": "^5.6.0",
+    "bcryptjs": "^2.4.3",
+    "reflect-metadata": "^0.1.13",
+    "source-map-support": "^0.5.21"
+  },
+  "devDependencies": {
+    "@loopback/build": "^8.0.0",
+    "@loopback/eslint-config": "^14.0.0",
+    "@types/node": "^18.0.0",
+    "eslint": "^8.0.0",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.0.0",
+    "typescript": "~4.9.5"
+  }
+}
