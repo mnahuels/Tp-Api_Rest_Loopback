@@ -1,4 +1,4 @@
-# ⚡ API REST – LoopBack 4 + MongoDB  
+# ⚡ API REST – LoopBack + MongoDB  
 **Trabajo Práctico – Sistemas Distribuidos**
 
 Este proyecto implementa una **API RESTful** desarrollada con **LoopBack ** (Node.js) y conectada a **MongoDB **, como parte de un trabajo práctico universitario.  
