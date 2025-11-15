@@ -8,8 +8,8 @@ La API gestiona **Usuarios**, **Artículos** y **Carritos de compra**, simulando
 
 ## 📦 Tecnologías Utilizadas
 
-- **Node.js **
-- **LoopBack **
+- **Node.js**
+- **LoopBack**
 - **TypeScript**
 - **MongoDB**
 - **Loopback MongoDB **
